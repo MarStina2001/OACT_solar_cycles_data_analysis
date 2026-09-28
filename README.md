@@ -1,4 +1,8 @@
 # OACT_solar_cycles_data_analysis
 OACT solar cycles data analysis
 
+The master file is [latOACT.ipynb](latOACT.ipynb), it has been used to create the plot in png format.
+The C codes were used to mine the physical information from the USSPS files and to store them in some txt files that are read by the master file. 
+All the USSPS files are stored in the OACT server and it has been possible to analyze them thank to the explanation give in the website: https://solar.oact.inaf.it/Latest_USSPS_file.php
+
 I will share this with GitShare
