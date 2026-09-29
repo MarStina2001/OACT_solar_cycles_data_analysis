@@ -28,7 +28,7 @@ int main(void)
               if(i==0) fprintf(pfcount,"%s_",s);   /*year*/
               if(i==1) fprintf(pfcount,"%s",s);   /*month*/
               if(i==2) fprintf(pfcount,"_%s ",s);   /*day*/
-              if(i==6) fprintf(pfcount,"%s\n",s);  /*nspot*/
+              if(i==4) fprintf(pfcount,"%s\n",s);  /*nspot, the no-spots signal is "-1"*/
              }
             if(s[0]=='*') break;
            }
@@ -47,5 +47,6 @@ int main(void)
 
 To compile this file:     gcc SILSO.c -o SILSO
 to execute this file:     ./SILSO
+https://www.sidc.be/SILSO/infosndtot
 
 */
