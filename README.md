@@ -15,7 +15,7 @@ Sources:
 Data editing codes:
 * [lat.c](lat.c)
 * [sunspotsarea.c](sunspotsarea.c)
-* [spotcount.c](spotcount)
+* [spotcount.c](spotcount.c)
 * [SILSO.c](SILSO.c)
 * [OACT_Sun.ipynb](OACT_Sun.ipynb)
 
