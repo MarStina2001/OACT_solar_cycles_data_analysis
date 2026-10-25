@@ -25,5 +25,5 @@ Plots maker:
 Final plots:
 * [butterfly_diagram.png](butterfly_diagram.png)
 * [sunspot_area_evolution.png](sunspot_area_evolution.png)
-* [sunspots_OACT.png](sunspots_OACT.png)
+* [sunspots_oact.png](sunspots_oact.png)
 * [sunspots_SILSO.png](sunspots_SILSO.png)
