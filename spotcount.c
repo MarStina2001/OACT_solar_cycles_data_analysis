@@ -11,7 +11,7 @@ typedef FILE*     pfile;
 
 int main(void)
      {
-           int    i,j,count;
+           int    i,j,count,i1,i2;
            pfile  pf,pfcount;
            char   s[STRLEN],filename[STRLEN];
            DIR *d;
@@ -47,12 +47,17 @@ int main(void)
                  {
                     if(strcmp(s,"INAF-CATANIA")==0) break;
                     fscanf(pf,"%s",s);
-                    if(!j) count++;
+                    if(j==2)
+                     {
+                       i1=s[3]-'0'; /*string to integer conversion*/
+                       i2=s[4]-'0';
+                        if(((i1>=0)&&(i1<10))&&((i2>=0)&&(i2<10))) count+=i1*10+i2;
+                     }
                  }
                 if(strcmp(s,"INAF-CATANIA")==0) break;
             }
 
-           fprintf(pfcount,"%d\n",count-1);
+           fprintf(pfcount,"%d\n",count);
 
            fclose(pf);
                         }
