@@ -27,3 +27,6 @@ Final plots:
 * [sunspot_area_evolution.png](sunspot_area_evolution.png)
 * [sunspots_oact.png](sunspots_oact.png)
 * [sunspots_SILSO.png](sunspots_SILSO.png)
+
+For more information read: [final_project.pdf](final_project.pdf)
+F
