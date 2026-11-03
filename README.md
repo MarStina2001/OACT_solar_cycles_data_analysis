@@ -29,4 +29,3 @@ Final plots:
 * [sunspots_SILSO.png](sunspots_SILSO.png)
 
 For more information read: [final_project.pdf](final_project.pdf)
-F
